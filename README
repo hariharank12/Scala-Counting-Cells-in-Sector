@@ -1,0 +1,17 @@
+This is to calculate Largest Sector in a Grid.
+
+More here http://technicalshowoff.blogspot.in/2011/04/counting-cells-in-sector.html to find the description of the problem.
+
+To define inputs, change the line at number 14 in LargestArea.scala, the following(which can be input from say AWT or Swing)
+
+def getFilledCells = Set((0,0), (0,1), (0,2), (1,2), (2,0), (2, 1)) //Your input comes here
+
+To run the sample,
+
+scalac -d ./class LargestArea.scala
+
+scala -classpath ./class:. area.LargestArea
+
+//To run as Java
+java -classpath /usr/share/scala/lib/scala-library.jar:./class:. area.LargestArea
+
