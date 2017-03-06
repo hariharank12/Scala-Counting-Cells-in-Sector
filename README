@@ -16,3 +16,5 @@ scala -classpath ./class:. area.LargestArea
 java -classpath /usr/share/scala/lib/scala-library.jar:./class:. area.LargestArea
 
 Scala is cool language to work with Functional Programming concepts under the constrained JVM.
+
+A test to submit pull request
